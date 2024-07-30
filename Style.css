@@ -1,0 +1,109 @@
+
+body {
+    background-color: rgb(66, 32, 191);
+    font-family: 'Merriweather', serif;
+  }
+  h1 {
+    color: blue;
+  }
+  p {
+    color: red;
+  }
+
+  p{
+    color:black
+  }
+
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.brand {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0; 
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer {
+    background-color: #718dae;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    font-family: 'Merriweather', serif;
+}
+.skill-box{
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 3px; 
+  font-size: 14px; 
+  font-weight: bold; 
+  font-family: 'Merriweather', serif;
+}
+
+.skill-box.c { background-color: green; } 
+.skill-box.python { background-color: green; } 
+.skill-box.verilog { background-color: green; } 
+.skill-box.html { background-color: green; } 
+
+
+
+body {
+  background: linear-gradient(45deg, rgb(255, 127, 225), rgb(31.4, 78.4, 47.1));
+  background-size: 200% 200%;
+  animation: gradientBG 10s ease infinite;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.content {
+  /*edit later*/
+}
